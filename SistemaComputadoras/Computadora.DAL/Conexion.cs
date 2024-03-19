@@ -13,7 +13,7 @@ namespace DAL
 
         public static string CONECTAR
         {
-            get { return @"Data Source=PCA-23; Initial Catalog=COMPUTADORAS; Integrated Security=True; TrustServerCertificate=true;"; }
+            get { return @"Data Source=PCA-23; Initial Catalog=COMPUTADORABD; Integrated Security=True; TrustServerCertificate=true;"; }
             //get { return ConfigurationManager.ConnectionStrings["cadena"].ToString(); }
         }
         public static DataSet EjecutarDataSet(string consulta)
